@@ -43,7 +43,7 @@
                 <p>Bersama Liraya, kita berdiri melawan kekerasan terhadap perempuan dan anak-anak</p>
                 <div class="hero-buttons">
                     <a href="#tentang-kami">Tentang Liraya</a>
-                    <a href="pusat-bantuan">Butuh bantuan?</a>
+                    <a href="#pusat-bantuan">Butuh bantuan?</a>
                 </div>
             </div>
         </div>
@@ -149,20 +149,34 @@
             </p>
             <form>
                 <div>
-                    <label>Nama lengkap</label>
-                    <input type="text" placeholder="Masukkan nama lengkapmu.."/>
+                    <label for="nama-lengkap">Nama lengkap</label>
+                    <input type="text" placeholder="Masukkan nama lengkapmu.." id="nama-lengkap"/>
                 </div>
                 <div>
-                    <label>Email aktif</label>
-                    <input type="email" placeholder="Email yang sekarang kamu pakai.."/>
+                    <label for="email">Email aktif</label>
+                    <input type="email" placeholder="Email yang sekarang kamu pakai.." id="email"/>
                 </div>
                 <div>
-                    <label>Domisili</label>
-                    <input type="email" placeholder="Daerah yang kamu tinggali sekarang.."/>
+                    <label for="domisili">Domisili</label>
+                    <input type="email" placeholder="Daerah yang kamu tinggali sekarang.." id="domisili"/>
                 </div>
                 <div>
-                    <label>Minat kontribusi</label>
-                    <input type="email" placeholder="Daerah yang kamu tinggali sekarang.."/>
+                    <label>Pilihan bidang kontribusi</label>
+
+                    <input type="radio" id="edukasi-kampanye" name="bidang-kontribusi"/>
+                    <label for="edukasi-kampanye">Edukasi & Kampanye</label>
+
+                    <input type="radio" id="desain" name="bidang-kontribusi"/>
+                    <label for="desain">Desain</label>
+
+                    <input type="radio" id="riset-data" name="bidang-kontribusi"/>
+                    <label for="riset-data">Riset & Data</label>
+
+                    <input type="radio" id="fundraising-humas" name="bidang-kontribusi"/>
+                    <label for="fundraising-humas">Fundraising & Humas</label>
+
+                    <input type="radio" id="event-organizer" name="bidang-kontribusi"/>
+                    <label for="event-organizer">Event Organizer</label>
                 </div>
             </form>
         </div>
