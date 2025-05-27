@@ -16,11 +16,11 @@
         <div class="nav-container">
             <img src="./assets/LOGO.png" class="liraya-logo">
             <ul class="nav-items">
-                <li><a href="" class="active">Beranda</a></li>
-                <li><a href="">Tentang Kami</a></li>
-                <li><a href="">Program</a></li>
-                <li><a href="">Pusat Bantuan</a></li>
-                <li><a href="" id="join-button">Gabung</a></li>
+                <li><a href="#hero" class="active">Beranda</a></li>
+                <li><a href="#tentang-kami">Tentang Kami</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#pusat-bantuan">Pusat Bantuan</a></li>
+                <li><a href="#gabung" id="join-button">Gabung</a></li>
             </ul>
         </div>
     </nav>
@@ -43,7 +43,7 @@
     </div>  -->
 
     <main>
-        <div class="hero">
+        <div class="hero" id="hero">
             <div class="hero-background">
                 <img src="./assets/hero.jpg" alt="hero"/>
                 <div class="hero-overlay"></div>
@@ -60,27 +60,32 @@
 
         <div class="tentang-kami" id="tentang-kami">
             <div class="tentang-liraya">
-                <div class="tentang-liraya-text">
-                    <h2>Dimulai dari Suara, Bergerak untuk Perubahan</h2>
-                    <p>
-                        Liraya adalah komunitas yang berkomitmen untuk melindungi perempuan dan anak dari 
-                        kekerasan, pelecehan, dan ketidakadilan. Berdiri sejak tahun 2020, Liraya hadir 
-                        sebagai ruang aman dan suportif bagi para penyintas serta sebagai suara yang mendorong 
-                        perubahan sosial dan kebijakan. Dengan pendekatan edukatif, pendampingan psikososial, 
-                        serta advokasi hukum, kami percaya bahwa setiap perempuan dan anak berhak atas kehidupan
-                        yang bebas dari rasa takut.
-                    </p>
-                </div>
-                <div class="tentang-liraya-image">
-                    <img src="./assets/about.jpg" alt="about"/>
+                <div class="tentang-liraya-content">
+                    <div class="tentang-liraya-text">
+                        <h2>Dimulai dari Suara, Bergerak untuk Perubahan</h2>
+                        <p>
+                            Liraya adalah komunitas yang berkomitmen untuk melindungi perempuan dan anak dari 
+                            kekerasan, pelecehan, dan ketidakadilan. Berdiri sejak tahun 2020, Liraya hadir 
+                            sebagai ruang aman dan suportif bagi para penyintas serta sebagai suara yang mendorong 
+                            perubahan sosial dan kebijakan. 
+                        </p>
+                        <p>
+                            Dengan pendekatan edukatif, pendampingan psikososial, 
+                            serta advokasi hukum, kami percaya bahwa setiap perempuan dan anak berhak atas kehidupan
+                            yang bebas dari rasa takut.
+                        </p>
+                    </div>
+                    <div class="tentang-liraya-image">
+                        <img src="./assets/about.jpg" alt="about"/>
+                    </div>
                 </div>
             </div>
             <div class="nilai-nilai">
-                <h2>Dibimbing oleh Nilai, Digerakkan oleh Hati</h2>
+                <h2>Dibimbing oleh Nilai, Digerakkan oleh Hati ❤</h2>
                 <div class="nilai-container">
                     <div class="nilai-card" id="perlindungan">
                         <img src="./assets/perlindungan_icon.png" alt="perlindungan"/>
-                        <h3>Perlindungan</h3>
+                        <h3>PERLINDUNGAN</h3>
                         <p>
                             Kami menciptakan ruang aman dan menyediakan akses bantuan bagi korban kekerasan, 
                             baik secara fisik, verbal, maupun seksual.
@@ -88,7 +93,7 @@
                     </div>
                     <div class="nilai-card" id="pemberdayaan">
                         <img src="./assets/pemberdayaan_icon.png" alt="pemberdayaan"/>
-                        <h3>Pemberdayaan</h3>
+                        <h3>PEMBERDAYAAN</h3>
                         <p>
                             Kami percaya kekuatan ada di tangan komunitas. Melalui edukasi, pelatihan, dan dukungan, 
                             kami mendorong perempuan dan anak untuk bangkit dan mandiri.
@@ -96,7 +101,7 @@
                     </div>
                     <div class="nilai-card" id="pemulihan">
                         <img src="./assets/pemulihan_icon.png" alt="pemuliahn"/>
-                        <h3>Pemulihan</h3>
+                        <h3>PEMULIHAN</h3>
                         <p>
                             Kami mendampingi proses pemulihan korban secara holistik—baik emosional, mental, 
                             maupun sosial—dengan pendekatan penuh empati dan hormat.
@@ -107,59 +112,67 @@
         </div>
 
         <div class="program" id="program">
-            <h2>Langkah Kecil untuk Rasa Aman yang Hilang</h2>
-            <p>
-                Melalui program edukasi, pendampingan, advokasi, dan forum dukungan, Liraya hadir untuk 
-                memulihkan kembali rasa aman yang pernah direnggut. Setiap tindakan kami adalah bentuk 
-                kepedulian nyata terhadap perempuan dan anak yang membutuhkan ruang untuk bangkit.
-            </p>
-            <div class="program-container">
-                <div class="program-card" id="edukasi-kampanye">
-                    <img src="./assets/program-1.jpg" alt="edukasi-kampanye-img"/>
-                    <h3>Edukasi & Kampanye Sosial</h3>
-                    <p>
-                        Meningkatkan kesadaran publik melalui webinar, pelatihan, dan kampanye daring 
-                        seputar kekerasan terhadap perempuan dan anak.
-                    </p>
-                </div>
-                <div class="program-card" id="pendampingan-korban">
-                    <img src="./assets/program-2.jfif" alt="pendampingan-korban-img"/>
-                    <h3>Pendampingan Korban</h3>
-                    <p>
-                        Mendampingi korban secara psikologis, hukum, dan sosial dalam proses 
-                        pemulihan yang aman dan suportif.
-                    </p>
-                </div>
-                <div class="program-card" id="advokasi-hukum">
-                    <img src="./assets/program-3.jpg" alt="advokasi-hukum-img"/>
-                    <h3>Advokasi Hukum & Kebijakan</h3>
-                    <p>
-                        Mendorong perubahan kebijakan dan perlindungan hukum melalui kolaborasi 
-                        dan aksi advokasi.
-                    </p>
-                </div>
-                <div class="program-card" id="forum-dukungan">
-                    <img src="./assets/program-4.jpg" alt="forum-dukungan-img"/>
-                    <h3>Forum Dukungan & Konseling</h3>
-                    <p>
-                        Ruang aman untuk berbagi cerita, saling menguatkan, dan mendapatkan 
-                        konseling secara anonim.
-                    </p>
+            <div class="program-content">
+                <h2>Langkah Kecil untuk Rasa Aman yang Hilang</h2>
+                <p>
+                    Melalui program edukasi, pendampingan, advokasi, dan forum dukungan, Liraya hadir untuk 
+                    memulihkan kembali rasa aman yang pernah direnggut. Setiap tindakan kami adalah bentuk 
+                    kepedulian nyata terhadap perempuan dan anak yang membutuhkan ruang untuk bangkit.
+                </p>
+                <div class="program-container">
+                    <div class="program-card" id="edukasi-kampanye">
+                        <img src="./assets/program-1.jpg" alt="edukasi-kampanye-img"/>
+                        <h3>Edukasi & Kampanye</h3>
+                        <p>
+                            Meningkatkan kesadaran publik melalui webinar, pelatihan, dan kampanye daring 
+                            seputar kekerasan terhadap perempuan dan anak.
+                        </p>
+                    </div>
+                    <div class="program-card" id="pendampingan-korban">
+                        <img src="./assets/program-2.jfif" alt="pendampingan-korban-img"/>
+                        <h3>Pendampingan Korban</h3>
+                        <p>
+                            Mendampingi korban secara psikologis, hukum, dan sosial dalam proses 
+                            pemulihan yang aman dan suportif.
+                        </p>
+                    </div>
+                    <div class="program-card" id="advokasi-hukum">
+                        <img src="./assets/program-3.jpg" alt="advokasi-hukum-img"/>
+                        <h3>Advokasi Hukum & Kebijakan</h3>
+                        <p>
+                            Mendorong perubahan kebijakan dan perlindungan hukum melalui kolaborasi 
+                            dan aksi advokasi.
+                        </p>
+                    </div>
+                    <div class="program-card" id="forum-dukungan">
+                        <img src="./assets/program-4.jpg" alt="forum-dukungan-img"/>
+                        <h3>Forum Dukungan & Konseling</h3>
+                        <p>
+                            Ruang aman untuk berbagi cerita, saling menguatkan, dan mendapatkan 
+                            konseling secara anonim.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="pusat-bantuan" id="pusat-bantuan">
             <div class="pusat-bantuan-content">
-                <h2>Kami Siap Mendengarkan, Kapan Pun Kamu Siap</h3>
+                <h2>Kami Siap Mendengarkan, Kapan Pun Kamu Siap Bercerita</h3>
                 <p>
                     Tidak ada yang terlalu kecil untuk diceritakan, dan tidak ada yang terlalu terlambat 
                     untuk dibantu. Liraya menyediakan jalur bantuan bagi korban kekerasan agar tidak merasa 
                     sendiri. Kami mendengarkan, mendampingi, dan percaya padamu.
                 </p>
                 <div id="bantuan-buttons-container">
-                    <a class="bantuan-buttons" id="hotline-darurat">Hotline Darurat Liraya</a>
-                    <a class="bantuan-buttons" id="laporan">Kirim Laporan Kekerasan</a>
+                    <a id="hotline-darurat">
+                        Hotline Darurat Liraya
+                        <img src="./assets/telfon.png" alt="telfon"/>
+                    </a>
+                    <a id="laporan">
+                        Kirim Laporan Kekerasan
+                        <img src="./assets/chat.png" alt="telfon"/>
+                    </a>
                 </div>
             </div>
             <div class="pusat-bantuan-image">
@@ -168,44 +181,58 @@
         </div>
 
         <div class="gabung" id="gabung">
-            <h2>Jadilah Bagian dari Gerakan yang Melindungi</h2>
-            <p>
-                Kami percaya perubahan dimulai dari keberanian untuk peduli. Dengan bergabung sebagai 
-                relawan, kamu ikut menghadirkan ruang aman bagi perempuan dan anak di seluruh Indonesia. 
-            </p>
-            <form>
-                <div>
-                    <label for="nama-lengkap">Nama lengkap</label>
-                    <input type="text" placeholder="Masukkan nama lengkapmu.." id="nama-lengkap"/>
-                </div>
-                <div>
-                    <label for="email">Email aktif</label>
-                    <input type="email" placeholder="Email yang sekarang kamu pakai.." id="email"/>
-                </div>
-                <div>
-                    <label for="domisili">Domisili</label>
-                    <input type="email" placeholder="Daerah yang kamu tinggali sekarang.." id="domisili"/>
-                </div>
-                <div>
-                    <label>Pilihan bidang kontribusi</label>
+            <div class="gabung-content">
+                <h2>Jadilah Bagian dari Gerakan yang Melindungi</h2>
+                <p>
+                    Kami percaya perubahan dimulai dari keberanian untuk peduli. Dengan bergabung sebagai 
+                    relawan, kamu ikut menghadirkan ruang aman bagi perempuan dan anak di seluruh Indonesia. 
+                </p>
+                <form>
+                    <div class="form-style">
+                        <label for="nama-lengkap">Nama lengkap</label>
+                        <input type="text" placeholder="Masukkan nama lengkapmu.." id="nama-lengkap"/>
+                    </div>
+                    <div class="form-style"> 
+                        <label for="email">Email aktif</label>
+                        <input type="email" placeholder="Email yang sekarang kamu pakai.." id="email"/>
+                    </div>
+                    <div class="form-style">
+                        <label for="domisili">Domisili</label>
+                        <input type="email" placeholder="Daerah yang kamu tinggali sekarang.." id="domisili"/>
+                    </div>
+                    <div class="form-style">
+                        <label>Pilihan bidang kontribusi</label>
 
-                    <input type="radio" id="edukasi-kampanye" name="bidang-kontribusi"/>
-                    <label for="edukasi-kampanye">Edukasi & Kampanye</label>
+                        <div class="radio-option">
+                            <input type="radio" id="edukasi-kampanye" name="bidang-kontribusi"/>
+                            <label for="edukasi-kampanye">Edukasi & Kampanye</label>
+                        </div>
 
-                    <input type="radio" id="desain" name="bidang-kontribusi"/>
-                    <label for="desain">Desain</label>
+                        <div class="radio-option">
+                            <input type="radio" id="desain" name="bidang-kontribusi"/>
+                            <label for="desain">Desain</label>
+                        </div>
 
-                    <input type="radio" id="riset-data" name="bidang-kontribusi"/>
-                    <label for="riset-data">Riset & Data</label>
+                        <div class="radio-option">
+                            <input type="radio" id="riset-data" name="bidang-kontribusi"/>
+                            <label for="riset-data">Riset & Data</label>
+                        </div>
 
-                    <input type="radio" id="fundraising-humas" name="bidang-kontribusi"/>
-                    <label for="fundraising-humas">Fundraising & Humas</label>
+                        <div class="radio-option">
+                            <input type="radio" id="fundraising-humas" name="bidang-kontribusi"/>
+                            <label for="fundraising-humas">Fundraising & Humas</label>
+                        </div>
 
-                    <input type="radio" id="event-organizer" name="bidang-kontribusi"/>
-                    <label for="event-organizer">Event Organizer</label>
-                </div>
-            </form>
+                        <div class="radio-option">
+                            <input type="radio" id="event-organizer" name="bidang-kontribusi"/>
+                            <label for="event-organizer">Event Organizer</label>
+                        </div>
+                    </div>
+                    <input type="submit" class="submit-button">
+                </form>
+            </div>
         </div>
+
     </main>
     
     <footer>
@@ -214,8 +241,8 @@
                 <img src="./assets/LOGO.png" class="liraya-logo-footer">
                 <div class="links">
                     <h3>Tautan Cepat</h3>
-                    <p><a href="">Tentang Kami</a></p>
-                    <p><a href="">Pusat Bantuan</a></p>
+                    <p><a href="#tentang-kami">Tentang Kami</a></p>
+                    <p><a href="#pusat-bantuan">Pusat Bantuan</a></p>
                 </div>
                 <div class="kontak-kami">
                     <h3>Kontak kami</h3>
@@ -224,10 +251,8 @@
                 </div>
                 <div class="sosial-media">
                     <h3>Ikuti kami</h3>
-                    <!-- INSTAGRAM -->
-                    <p>@liraya.id</p>
-                    <!-- TWITTER -->
-                    <p>@liraya_id</p>
+                    <p>IG : @liraya.id</p>
+                    <p>Twitter : @liraya_id</p>
                 </div>
             </div>
             <hr>
@@ -267,5 +292,6 @@
             </div>
         </div> -->
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
