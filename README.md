@@ -57,10 +57,10 @@ Liraya/
 - Optimized for clarity, accessibility, and responsiveness.
 
 - Assets Used
-Fonts : Syne & Lexend Deca (via [Google Fonts](https://fonts.google.com))  
+Fonts : Syne & Lexend Deca (via Google Fonts (https://fonts.google.com))  
 Images : Various curated visual sources  
 Icons : Figma Material Design Pack   
 
-Created with dedication and passion for **Beasiswa Perempuan Inovasi 2025 Preliminary Round - Full Stack Web Development Track**
+Created with dedication and passion for Beasiswa Perempuan Inovasi 2025 Preliminary Round - Full Stack Web Development Track
 ```
 <br><br>
