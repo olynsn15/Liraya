@@ -21,8 +21,11 @@ At **Liraya**, we stand as a beacon of hope and a fortress of protection for wom
 <br><br> 
 
 ## Prototype & Live Website
+View the website prototype on Figma
+> [Figma Prototype](https://www.figma.com/design/VJB8KMlMo2y5n0PAmJFGHo/Untitled?node-id=0-1&t=DCfO49fDCxa11wrC-1)
+
+View the live website deployed on Github Pages
 > [GitHub Pages – Live Website](https://olynsn15.github.io/PEREMPUAN-INOVASI/)  
-> [Figma Prototype](https://www.figma.com/design/VJB8KMlMo2y5n0PAmJFGHo/Untitled?node-id=0-1&t=DCfO49fDCxa11wrC-1)  
 <br>
 
 ## Project Structure
