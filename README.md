@@ -1,4 +1,4 @@
-# LIRAYA 💜📞
+# Liraya 💜📞
 ### Beasiswa Perempuan Inovasi 2025 Preliminary Round - Full Stack Web Development Final Project
 
 At **Liraya**, we stand as a beacon of hope and a fortress of protection for women and children who have experienced the unimaginable trauma of sexual violence. We provide a safe, compassionate community where healing begins and voices are empowered. Beyond support, Liraya actively champions legislative change, advocating fiercely for robust laws that safeguard the vulnerable and hold perpetrators accountable.
